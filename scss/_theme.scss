@@ -56,15 +56,17 @@
     font-size: 27px;
   }
   
-  .janewilson-home .section {
+
+  //TODO - THIS WAS DONE ON THE MAC SO WON'T COMPILE BECAUSE ITS BEING A TWAT - DELETE COMMENT ON WINDOWS TO MAKE COMPILE.
+.section {
     border-bottom: 1px solid #eaebed;
   }
   
-  .janewilson-home .section-invert {
+.section-invert {
     background: #f9fafc;
   }
   
-  .janewilson-home .testimonials .avatar {
+.testimonials .avatar {
     max-width: 80px;
     overflow: hidden;
   }
