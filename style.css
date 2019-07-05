@@ -3739,6 +3739,44 @@ a.text-black:hover, a.text-black:focus {
 .with-shadows {
   box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1); }
 
+.section-title {
+  position: relative; }
+
+.section-title:after {
+  content: '';
+  width: 30px;
+  height: 2px;
+  background: #007bff;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+  bottom: -20px; }
+
+.feature .icon {
+  border-radius: 50%;
+  min-width: 65px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(33, 37, 41, 0.1), 0 7px 14px rgba(33, 37, 41, 0.1);
+  font-size: 27px;
+  margin: auto; }
+
+.section {
+  border-bottom: 1px solid #eaebed; }
+
+.section-invert {
+  background: #f9fafc; }
+
+.testimonials .avatar {
+  max-width: 80px;
+  overflow: hidden; }
+
+.bg-dark {
+  color: #fff; }
+  .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4, .bg-dark h5, .bg-dark h5, .bg-dark p, .bg-dark i {
+    color: #fff; }
+
 .janewilson-home .welcome {
   position: relative;
   height: 100vh;
@@ -3764,38 +3802,6 @@ a.text-black:hover, a.text-black:focus {
 @media (max-width: 400px) {
   .janewilson-home .welcome .welcome-heading {
     font-size: 2.415rem; } }
-
-.section-title {
-  position: relative; }
-
-.section-title:after {
-  content: '';
-  width: 30px;
-  height: 2px;
-  background: #007bff;
-  position: absolute;
-  left: 50%;
-  margin-left: -15px;
-  bottom: -20px; }
-
-.feature .icon {
-  border-radius: 50%;
-  min-width: 65px;
-  height: 65px;
-  line-height: 65px;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(33, 37, 41, 0.1), 0 7px 14px rgba(33, 37, 41, 0.1);
-  font-size: 27px; }
-
-.janewilson-home .section {
-  border-bottom: 1px solid #eaebed; }
-
-.janewilson-home .section-invert {
-  background: #f9fafc; }
-
-.janewilson-home .testimonials .avatar {
-  max-width: 80px;
-  overflow: hidden; }
 
 ul.timeline {
   list-style-type: none;
