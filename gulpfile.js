@@ -5,7 +5,7 @@ var paths = {
     styles: {
         src: "./scss/**/*.scss",
         // Compiled files will end up in whichever folder it's found in (partials are not compiled)
-        dest: "./"
+        dest: "../"
     }
 };
 
